@@ -1,5 +1,5 @@
 body {
-  background-color: #F8F8F8;
+  background-color: #F5F5F5;
 }
 
 .box {
@@ -9,5 +9,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
+  box-shadow: 2px 5px 8px #B8B8B8;
   /* margin: 20px 100px 20px 100px; */
 }
