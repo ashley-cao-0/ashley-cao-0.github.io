@@ -25,6 +25,8 @@ div {
   line-height: 200%;
 }
 
+
+
 .intro {
   background-image: linear-gradient(135deg, #f77b7b, #ae1480);
   padding-bottom: 30px;
@@ -61,6 +63,13 @@ a {
   color: black;
 }
 
+/** background colour for big screens**/
+@media only screen and (max-width: 1200px) {
+  .intro {
+    background-image: linear-gradient(135deg, #E55D87, #5fc3e4);
+
+  }
+}
 
 /** for tablet**/
 @media only screen and (max-width: 768px) {
@@ -130,13 +139,5 @@ a {
   p,
   div {
     font-size: small;
-  }
-}
-
-/** for big screens**/
-@media only screen and (max-width: 1200px) {
-  .intro {
-    background-image: linear-gradient(135deg, #E55D87, #5fc3e4);
-
   }
 }
