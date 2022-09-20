@@ -61,6 +61,7 @@ a {
   color: black;
 }
 
+
 /** for tablet**/
 @media only screen and (max-width: 768px) {
   .intro>h1 {
@@ -129,5 +130,13 @@ a {
   p,
   div {
     font-size: small;
+  }
+}
+
+/** for big screens**/
+@media only screen and (max-width: 1200px) {
+  .intro {
+    background-image: linear-gradient(135deg, #E55D87, #5fc3e4);
+
   }
 }
