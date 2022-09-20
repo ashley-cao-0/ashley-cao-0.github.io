@@ -2,8 +2,8 @@ html,
 body {
   background-color: #fbf5f9;
   color: #101010;
-  overflow: visible;
-
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -34,7 +34,6 @@ div {
   padding-right: 25%;
   padding-top: 200px;
   padding-bottom: 50px;
-  margin: -10px;
   border-bottom: 1px solid #484848;
 }
 
@@ -46,7 +45,6 @@ div {
 }
 
 .blog {
-  /* background-color: white; */
   background-color: #f1edf0;
   padding: 20px;
   border: 1px solid #484848;
