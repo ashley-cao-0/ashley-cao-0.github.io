@@ -1,7 +1,7 @@
 html,
 body {
   /* height: 100%; */
-  background-color: #faedf6;
+  background-color: #fbf5f9;
   color: #101010;
   overflow: visible;
 
@@ -62,7 +62,7 @@ div {
 
 .blog {
   /* background-color: white; */
-  background-color: #ece0e9;
+  background-color: #f1edf0;
   padding: 20px;
   border: 1px solid #484848;
   margin-bottom: 25px;
@@ -70,7 +70,7 @@ div {
 }
 
 .blog:hover {
-  background-color: #e2c2cd;
+  background-color: #ec9a9a;
 }
 
 a {
