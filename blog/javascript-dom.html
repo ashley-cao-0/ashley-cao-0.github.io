@@ -22,7 +22,7 @@
       JavaScript, HTML and CSS are three main components that make up a webpage. HTML defines the structure and content
       of the page. CSS defines the layout and formatting of the content. JavaScript make the elements interactive.
     </p>
-    <div class="img-row">
+    <div class="img-food">
       <img src="../images/ingredients.jpg" alt="Food image">
       <img src="../images/cooking.jpeg" alt="Food image">
       <img src="../images/present-food.JPG" alt="Food image">
@@ -38,8 +38,11 @@
     </p>
     <h2>Control flow and loops</h2>
     <p>
-      Control flow is the order in which the code is executed.
+      Control flow is the order in which the code is executed. By default, JavaScript execute code line by line.
+      However, there are certain statements that can change this default behaviour, allow you to skip or repeat a block
+      of code.
     </p>
+    <img src="../images/control-flow.jpeg" alt="js-flow">
     <p>
       Back to the cooking analogy, you can follow a recipe step-by-step. However, sometimes you can do them in different
       order, or skip a number of steps depend on the circumstances. For example, to make
@@ -57,18 +60,35 @@
       manipulated. I can interact with it by assigning an id to the elements in HTML, and use Javascript to identify and
       interact with those elements.
     </p>
+    <p>
+      In the Document Object Model, documents have a logical structure which is very much like a tree; to be more
+      precise, it is like a "forest" or "grove" which can contain more than one tree. However, the Document Object Model
+      does not specify that documents be implemented as a tree or a grove , nor does it specify how the relationships
+      among objects be implemented in any way. In other words, the object model specifies the logical model for the
+      programming interface, and this logical model may be implemented in any way that a particular implementation finds
+      convenient. In this specification, we use the term structure model to describe the tree-like representation of a
+      document; we specifically avoid terms like "tree" or "grove" in order to avoid implying a particular
+      implementation. One important property of DOM structure models is structural isomorphism: if any two Document
+      Object Model implementations are used to create a representation of the same document, they will create the same
+      structure model, with precisely the same objects and relationships.
+    </p>
+    <img class="dom" src="../images/DOM.png" alt="dom">
     <h2>Accessing data from arrays and objects</h2>
     <p>
       We access data from arrays using the indexes of the array elements. It’s like saying “Give me the first dish on
       the
       menu". Whereas we access data from objects using the keys in the key-value pairs. It’s like asking “How much is
-      this chicken curry?” (each dish in the menu has a price).
+      this chicken curry?” (each dish in the menu has a price). See example code below.
     </p>
+    <img src="../images/array-vs-object.JPG" alt="array-vs-object">
     <h2>Functions</h2>
     <p>A function is a set of instructions that is designed to perform a particular task. Functions are useful when we
       need to do that task multiple times but don’t want to list all of the steps again and again. That makes the code
-      easier to read. For example, a recipe may just tell you to go fry an egg, instead of listing stuff like heat the
-      pan, add oil, etc.</p>
+      easier to read. For example, you are instructing someone to prepare for a picnic. You need them to make 5
+      different sandwiches. You only needs to show them how to do one. They can based on that, make the other 4 by
+      replacing the ingredients.
+    </p>
+    <img class="sandwich" src="../images/sandwich.png" alt="sandwich function">
   </div>
 </body>
 

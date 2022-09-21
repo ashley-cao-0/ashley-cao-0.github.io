@@ -22,18 +22,32 @@ li {
   margin-block-start: 0.75em;
 }
 
-img {
+.img-food>img {
   width: 8vw;
   height: 8vw;
   border-radius: 10vw;
   object-fit: cover;
   overflow: hidden;
-  margin: 2vw 2vw 2vw;
+  margin: 2vw;
 }
 
-.img-row {
+.img-food {
   text-align: center;
-  padding-right: 5vw;
+  padding-right: 10vw;
+}
+
+img {
+  border-radius: 2vw;
+  margin: 1vw;
+}
+
+.dom {
+  width: 60%;
+}
+
+.sandwich {
+  border-radius: 0;
+  width: 30%;
 }
 
 .title {
