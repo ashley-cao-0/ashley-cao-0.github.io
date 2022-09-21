@@ -22,6 +22,20 @@ li {
   margin-block-start: 0.75em;
 }
 
+img {
+  width: 8vw;
+  height: 8vw;
+  border-radius: 10vw;
+  object-fit: cover;
+  overflow: hidden;
+  margin: 2vw 2vw 2vw;
+}
+
+.img-row {
+  text-align: center;
+  padding-right: 5vw;
+}
+
 .title {
   background-image: linear-gradient(135deg, #f77b7b, #ae1480);
   padding-left: 7%;
