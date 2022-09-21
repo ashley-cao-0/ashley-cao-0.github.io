@@ -1,6 +1,6 @@
 html,
 body {
-  background-color: #fbf5f9;
+  background-color: #F8F8F8;
   color: #101010;
   margin: 0;
   padding: 0;
@@ -45,15 +45,15 @@ div {
 }
 
 .blog {
-  background-color: #f1edf0;
+  background-color: white;
   padding: 20px;
-  border: 1px solid #484848;
+  border: 1px solid gray;
   margin-bottom: 25px;
   transition: all 0.15s ease;
 }
 
 .blog:hover {
-  background-color: #ec9a9a;
+  background-color: #ffa4a4;
 }
 
 a {
