@@ -26,8 +26,8 @@ li {
   background-image: linear-gradient(135deg, #f77b7b, #ae1480);
   padding-left: 7%;
   padding-right: 25%;
-  padding-top: 100px;
-  padding-bottom: 20px;
+  padding-top: 120px;
+  padding-bottom: 0;
   border-bottom: 1px solid #484848;
   font-size: x-large;
 }
