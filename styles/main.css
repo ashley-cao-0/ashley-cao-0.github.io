@@ -22,6 +22,10 @@ li {
   margin-block-start: 0.75em;
 }
 
+li {
+  margin-bottom: 20px;
+}
+
 ul {
   list-style-position: outside;
 }
